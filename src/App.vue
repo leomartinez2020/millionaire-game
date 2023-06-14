@@ -46,9 +46,11 @@
 </template>
 
 <script>
+import datos from './assets/datos.json'
 export default {
     data(){
         return{
+            misdatos: datos.data,
             ctrls: { started: false, final: false, correct: false, wrong: false, process: true },
             game: { qs: [], scores: [], /*lifelines: [],*/ sounds: [], current: 0, answer: "" }
         }
@@ -70,6 +72,10 @@ export default {
             console.log(this.game);
         },
         getQ(n) {
+            let qs = this.misdatos;
+            return qs;
+        },
+        getQOriginal(n) {
             let qs = []; // qs: questions
             for (let i = 1; i <= n; ++i){
                 const q = { // q: question
@@ -94,11 +100,12 @@ export default {
             return scores;
         },
         getSounds() {
-            this.game.sounds.play = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=lets+play!&filename=22/226000-d8c5d02e-e2d8-4552-a34f-ee006709e7b3.mp3");
-            this.game.sounds.bg = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=1000000+music&filename=22/226000-d812f5cc-04ab-4858-9045-00731ef1f3f3.mp3");
-            this.game.sounds.final = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=final+answer&filename=22/226000-99ef9794-cc3e-46b1-ab80-0a5ff96a0639.mp3");
-            this.game.sounds.correct = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=correct+answer!&filename=22/226000-40bfdd88-c10f-4f75-99af-8569db18de8e.mp3");
-            this.game.sounds.wrong = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=wrong+answer&filename=22/226000-9027b0d6-7a4f-4ee7-946f-6d011370681f.mp3");
+            this.game.sounds.play = new Audio("https://bestpreicfes.s3.amazonaws.com/letsplay.mp3");
+            //this.game.sounds.play = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=lets+play!&filename=22/226000-d8c5d02e-e2d8-4552-a34f-ee006709e7b3.mp3");
+            this.game.sounds.bg = new Audio("https://bestpreicfes.s3.amazonaws.com/background.mp3");
+            this.game.sounds.final = new Audio("https://bestpreicfes.s3.amazonaws.com/final-answer.mp3");
+            this.game.sounds.correct = new Audio("https://bestpreicfes.s3.amazonaws.com/correct-answer.mp3");
+            this.game.sounds.wrong = new Audio("https://bestpreicfes.s3.amazonaws.com/wrong-answer.mp3");
         },
         choice(c) {
             this.stopSounds();

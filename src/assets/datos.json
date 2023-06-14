@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "title": "El isótopo más peligroso al inicio de una contaminación nuclear es",
+      "choices": {
+        "a": "Carbono",
+        "b": "Neodimio",
+        "c": "Yodo",
+        "d": "Uranio"},
+      "answer": "c"
+    },
+    {
+      "title": "¿Quién fue Boris Shcherbina en la serie Chernobil?",
+      "choices": {
+        "a": "Físico de la Academia de Ciencias",
+        "b": "Jefe de la comisión creada por el Kremlin",
+        "c": "Jefe de los mineros",
+        "d": "Bombero que se quemó la mano"},
+      "answer": "b"
+    },
+    {
+      "title": "La amistad entre Legasov y Shcherbina fue real",
+      "choices": {
+        "a": "Fueron frenemigos",
+        "b": "Como Batman vs Superman",
+        "c": "Fue real",
+        "d": "Fue ficticia"},
+      "answer": "d"
+    },
+    {
+      "title": "Las personas condenadas por el desastre fueron",
+      "choices": {
+        "a": "Fomin, Bryukhanov y Dyatlov",
+        "b": "Fomin, Legasov y Dyatlov",
+        "c": "Fomin, Dyatlov e Ignatenko",
+        "d": "Nadie fue a la cárcel"},
+      "answer": "a"
+    },
+    {
+      "title": "¿Quién fue Ulana Khomyuk?",
+      "choices": {
+        "a": "Fue la esposa de Ignatenko, el bombero",
+        "b": "Fue la jefe del Politburo, ministra de Gorbachov",
+        "c": "Es un personaje ficticio que representa a los físicos soviéticos",
+        "d": "Es una física nuclear del Instituto Nuclear de Pripiat"},
+      "answer": "c"
+    },
+    {
+      "title": "La serie Chernobyl se filmó principalmente en",
+      "choices": {
+        "a": "Vilnius, Lituania",
+        "b": "Varsovia, Polonia",
+        "c": "Lvov, Ucrania",
+        "d": "Soledad, Colombia"},
+      "answer": "a"
+    },
+    {
+      "title": "El reactor número 3, el último en cerrarse, se clausuró en",
+      "choices": {
+        "a": "2008",
+        "b": "2011",
+        "c": "1990",
+        "d": "2000"},
+      "answer": "d"
+    }
+  ]
+}
