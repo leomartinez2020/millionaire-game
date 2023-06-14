@@ -63,7 +63,7 @@ export default {
             this.ctrls.started = true;
             this.getSounds();
             this.game.sounds.play.play();
-            const n = 7;
+            const n = 10;
             this.game.qs = this.getQ(n);
             this.game.scores = this.createScores(n);
             await this.delay(4000);

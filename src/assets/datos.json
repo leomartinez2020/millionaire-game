@@ -51,7 +51,7 @@
         "a": "Vilnius, Lituania",
         "b": "Varsovia, Polonia",
         "c": "Lvov, Ucrania",
-        "d": "Soledad, Colombia"},
+        "d": "Soledad y Malambo"},
       "answer": "a"
     },
     {
@@ -61,6 +61,33 @@
         "b": "2011",
         "c": "1990",
         "d": "2000"},
+      "answer": "d"
+    },
+    {
+      "title": "El actor con el papel de Dyatlov también participó en",
+      "choices": {
+        "a": "Toy Story",
+        "b": "Harry Potter",
+        "c": "Rápidos y Furiosos",
+        "d": "El Chavo"},
+      "answer": "b"
+    },
+    {
+      "title": "El nivel más alto de radiación registrado luego del desatre fue",
+      "choices": {
+        "a": "15 mil roentgens por hora",
+        "b": "15 mil sieverts",
+        "c": "300 roentgens por hora",
+        "d": "10 mil rem por hora"},
+      "answer": "a"
+    },
+    {
+      "title": "¿El yodo 131 es peligroso para la salud debido que afecta qué órgano?",
+      "choices": {
+        "a": "El cerebro",
+        "b": "La retina",
+        "c": "El dedo gordo del pie",
+        "d": "La glándula tiroides"},
       "answer": "d"
     }
   ]
